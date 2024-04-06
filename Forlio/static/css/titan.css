@@ -1,0 +1,18 @@
+
+/* navbar css */
+
+.nav-link{
+    border: 1px solid none;
+    border-radius: 10px;
+}
+.nav-item a{
+    color: whitesmoke;
+}
+.nav-item{
+    padding-left: 5%;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
