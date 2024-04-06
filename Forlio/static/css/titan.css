@@ -16,3 +16,33 @@
     color: white;
 }
 
+.cust-css-2{
+    background-color: #dfcfcfdc;
+}
+.cust-bg-1{
+    background: #333;
+}
+.cust-bg-2{
+    background: linear-gradient(to bottom, #33333350, transparent);
+}
+.text-decor h2{
+    text-decoration: 2px black overline;
+}
+.height{
+    height: 15vh;
+}
+.list-height ul li{
+    height: 10vh;
+}
+.chat-us{
+    border: white 1px solid;
+    border-radius: 25px;
+    z-index: 5;
+    position: fixed;
+    bottom: 5vh;
+    right: 5%;
+    /* transition: bottom 0.3s ease-in-out; */
+    box-shadow: 0 0 10px 0 whitesmoke;
+    
+}
+
