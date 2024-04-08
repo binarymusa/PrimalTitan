@@ -6,7 +6,46 @@
 {% endblock %}
 
 {% block content %}
- 
-    Projects
+    <div  style="position: relative;display:flex">
+        <div class="container bg-dark position-fixed fixed-left" style="max-width: 200px; height: 100vh; ">
+            <div class="row">
+                <div class="col-md-3 text-white">
+                    <!-- This div will be fixed to the left -->
+                    <div class="text-success text-decoration-underline" >
+                        List of projects
+                    </div>
+
+                    <div class="my-3" >
+                        <ul class="navbar-nav my-2">
+                          <a class=" nav-link " href="#">
+                            ProjectA
+                        </a>
+              
+                          <li class="nav-item my-2">
+                            <a class="nav-link " href="#">
+                                ProjectB
+                              </a>
+                          </li>
+              
+                          <li class="nav-item my-2">
+                            <a class="nav-link" href="#">
+                                ProjectC
+                              </a>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+    
+               
+            </div>
+        </div>
+
+        <div class="bg-dark text-black "  style="margin-left: 215px;">
+            
+        </div>
+        
+    </div>
+    
+  
     
 {% endblock %}
