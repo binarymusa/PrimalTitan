@@ -42,8 +42,7 @@
     z-index: 5;
     position: fixed;
     bottom: 5vh;
-    right: 5%;
-    /* box-shadow: 0 0 10px 0 whitesmoke; */
+    right: 6%;
     cursor: pointer;
     color: #008000;
 }

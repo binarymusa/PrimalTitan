@@ -25,11 +25,19 @@
     .navbar-nav .nav-item {
       margin-right: 0;
     }
+    .position-fixed{
+      position: relative;
+    }
+    #fix, #fix2{
+      display: none;
+    }
 }
 
-
-
-
+@media (max-width: 926px) {
+  #fix, #fix2{
+    display: none;
+  }
+}
 
 
 
