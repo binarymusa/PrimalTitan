@@ -5,9 +5,9 @@ from flask import render_template
 
 
 @app.route('/')
-@app.route('/Author')
-def Author():
-    return render_template('author.html')
+@app.route('/Home')
+def Home():
+    return render_template('home.html')
 
 
 @app.route('/Projects')

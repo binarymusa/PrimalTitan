@@ -1,19 +1,14 @@
 
 /* navbar css */
-
-.nav-link{
-    border: 1px solid none;
-    border-radius: 10px;
-}
-.nav-item a{
-    color: whitesmoke;
-}
 .nav-item{
     padding-left: 5%;
 }
-.nav-link:hover {
-    text-decoration: underline;
+.nav-item a{
     color: white;
+}
+.nav-item a:hover{
+    color: antiquewhite;
+    text-decoration: underline white;
 }
 
 .cust-css-2{
@@ -47,3 +42,6 @@
     color: #008000;
 }
 
+#fix5{
+    height: 100vh;
+}

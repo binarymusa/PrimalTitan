@@ -31,6 +31,10 @@
     #fix, #fix2{
       display: none;
     }
+    #fix5{
+      top: inherit;
+      height: auto;
+    }
 }
 
 @media (max-width: 926px) {
