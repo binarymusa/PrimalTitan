@@ -1,4 +1,5 @@
 Commands to run the app ;
+
 I. normal python method
   1. python run.py or python3 run.py
 
