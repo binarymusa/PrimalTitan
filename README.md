@@ -1,4 +1,17 @@
-Commands to run the app ;
+The file covers the basics to the complexities of tthe python flask framework:
+
+  it is encompasses 5 major files, that is the;
+
+    game file consisting of the :
+        static files(html,bootstrap css and javascript and other bootstrap icons files)
+  
+    A virtual environent file for the app(titan)
+  
+    A app execution file(run.py) for sTarting the application
+  
+    -and a file containing some of the apps dependency file(requirements.txt )
+
+ Commands to run the app ;
 
 I. normal python method
   1. python run.py or python3 run.py
