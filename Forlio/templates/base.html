@@ -2,23 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        {% block title %}
-            Base page
-        {% endblock %}
-
-    </title>
-    <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename='css/titan.css') }}" rel="stylesheet">
-    <link href="{{ url_for('static', filename='css/mediaquery.css') }}" rel="stylesheet">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {% block title %}{% endblock %}
+  </title>
+  
+  <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='Automobile/static/images/Automobile.ico') }}">
+  <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/titan.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/mediaquery.css') }}" rel="stylesheet">    
 </head>
 
-<body>
-   <nav class="navbar navbar-expand-md font-monospace position-sticky sticky-top" style="background-color: #333;">
-    <div class="container-fluid">
+<body class="bg-dark">
+  <nav class="navbar navbar-expand-md font-monospace position-sticky sticky-top">
+    <div class="container-fluid border-bottom">
         <button class="navbar-toggler bg-success" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
           <span class="navbar-toggler-icon rounded"></span>
         </button>
@@ -43,21 +41,19 @@
           </ul>
         </div>
       </div>
-   </nav>
+  </nav>
 
-   <main>
-      {% block content %}
+  <main>
+    {% block content %}    
+    
+    {% endblock %}
 
+    <footer>
       
-      
-      {% endblock %}
+    </footer>
+  </main>
 
-      <footer>
-       
-      </footer>
-   </main>
-
-   <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-   <script src="{{url_for('static', filename='javascript/titan.js')}}"></script>
+  <script src="{{ url_for('static', filename='bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{url_for('static', filename='javascript/titan.js')}}"></script>
   </body>
 </html>

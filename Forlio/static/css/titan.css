@@ -18,8 +18,11 @@
     color: #dfdddd;
 }
 .cust-bg-1{
-    background: #333;
-   
+    background: #333;   
+}
+#org-section, #resume-section{
+    margin-bottom: 5px;
+    padding: 3px;
 }
 .cust-bg-2{
     background: linear-gradient(to bottom, #33333350, transparent);
