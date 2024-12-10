@@ -8,7 +8,7 @@
 }
 .nav-item a:hover{
     color: antiquewhite;
-    text-decoration: underline white;
+    text-decoration:  white;
 }
 
 .cust-css-2{
@@ -42,7 +42,7 @@
     bottom: 5vh;
     right: 6%;
     cursor: pointer;
-    color: #008000;
+    /* color: #008000; */
 }
 
 #fix5{
