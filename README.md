@@ -48,3 +48,13 @@ This project is a web-based personal porrtfolio built using the Flask framework 
    ```bash
    git clone https://github.com/binarymusa/PrimalTitan.git
 
+
+**Screenshots:**
+
+**Landing Page:**
+
+![Screenshot 1](screenshots/landing_page.png)
+
+**Projects Page:**
+
+![Screenshot 1](screenshots/projects_page.png)
