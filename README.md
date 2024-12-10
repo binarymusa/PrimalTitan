@@ -24,9 +24,9 @@ This project is a web-based personal porrtfolio built using the Flask framework 
 2. **Install Dependencies:**
    - Open a terminal in your project directory and run:
 
-     `````bash
+     ```bash
      pip install -r requirements.txt
-     `````
+     ```
 
 3. **Start the Development Server:**
    - Run the Flask application using one of the following methods:
