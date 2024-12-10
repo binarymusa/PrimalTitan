@@ -1,21 +1,50 @@
-The file covers the basics to the complexities of tthe python flask framework:
+# My Portfolio Site (Flask)
 
-  it encompasses 5 major files, that is the;
+This project is a web-based personal porrtfolio built using the Flask framework in Python. 
 
-    game file consisting of the :
-        static files(html,bootstrap css and javascript and other bootstrap icons files)
-  
-    A virtual environent file for the app(titan)
-  
-    A app execution file(run.py) for sTarting the application
-  
-    -and a file containing some of the apps dependency file(requirements.txt )
+**Project Structure:**
 
- Commands to run the app ;
+* `app/`: Contains the core Flask application logic, including routes, models, forms, and templates.
+* `static/`: Houses static assets like CSS stylesheets, HTML templates, JavaScript files, and images.
+* `__init__.py`: Initializes the Flask application.
+* `requirements.txt`: Lists the project's Python dependencies.
+* `run.py`: The main script for starting the Flask application.
 
-    I. normal python method
-      1. python run.py or python3 run.py
-    
-    II.using a wsgi server for deployment such as gunicorn
-      - note : ensure you have a reverse proxyserver such as nginx configured to listen on a channel(i.e ip address
-      1. gunicorn -w 4 -b 0.0.0.0:8000 run:app
+**Running the App:**
+
+**Prerequisites:**
+
+- Python 3.x installed on your system.
+
+**Steps:**
+
+1. **Configure Port:**
+   - Open `run.py` and adjust the `port` variable to a free port on your machine.
+
+2. **Install Dependencies:**
+   - Open a terminal in your project directory and run:
+
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+3. **Start the Development Server:**
+   - Run the Flask application using one of the following methods:
+
+     - **Direct Method:**
+
+       ```bash
+       python run.py  # or python3 run.py on systems with Python 3 as default
+       ```
+
+     - **Using Gunicorn with Nginx (optional):**
+
+       ```bash
+       gunicorn -w 4 -b 0.0.0.0:8000 run:app
+       ```
+       (Replace `8000` with your desired port.)
+       
+4. **clone the repository:**
+   ```bash
+   git clone https://github.com/binarymusa/PrimalTitan.git
+
